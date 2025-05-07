@@ -84,7 +84,7 @@ Result:
     "ctrl-shift-cyrillic_tse": "editor::SelectSmallerSyntaxNode",
   }
 }
-``
+```
 
 
 ### Thanks
