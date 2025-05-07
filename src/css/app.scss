@@ -1,0 +1,37 @@
+.notes {
+	white-space: pre-line;
+	margin-bottom: 12px;
+}
+
+body {
+	min-width: 320px;
+}
+
+main {
+	--link: #333;
+	--current: navy;
+
+	box-sizing: border-box;
+	height: 100vh;
+
+	display: grid;
+	grid-template-rows: min-content 1fr;
+
+	header {
+	}
+
+	section {
+		padding: 12px;
+	}
+}
+
+.area-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	overflow: hidden;
+	clip-path: rect(0 0 0 0);
+	overflow-wrap: normal;
+	border: 0;
+}

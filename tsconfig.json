@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"verbatimModuleSyntax": true,
+		"moduleResolution": "node",
+		"target": "esnext",
+		"useDefineForClassFields": true,
+		"module": "esnext",
+		"lib": ["ESNext", "dom"],
+		"strict": true,
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"noEmit": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"skipLibCheck": true,
+		"noImplicitReturns": true,
+		"allowJs": false,
+		"checkJs": false,
+		"forceConsistentCasingInFileNames": true,
+
+		"paths": {
+		},
+	},
+	"include": ["./"],
+}
+

@@ -1,0 +1,42 @@
+{
+	"name": "zed-cyrillic-map",
+	"version": "1.0.0",
+	"type": "module",
+	"private": false,
+	"description": "Zed editor cyrillic keyboard bindings support online converter",
+	"keywords": [
+		"typescript",
+		"svelte",
+		"svelte5"
+	],
+	"license": "MIT",
+	"author": "Slava Krampetz <svl@dev4masses.com>",
+	"contributors": [
+		"Slava Krampetz <svl@dev4masses.com>"
+	],
+	"scripts": {
+		"dev": "bun --bun vite dev",
+		"build": "bun --bun vite build",
+		"preview": "bun --bun vite preview",
+		"watch": "bun --bun vite --watch build",
+		"test": "bun test",
+		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p ./tsconfig.node.json",
+		"check:ts": "tsc -p ./tsconfig.node.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/slavakrampetz/zed-cyrillic-map.git"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "5.0.3",
+		"@tsconfig/svelte": "5.0.4",
+		"@types/bun": "1.2.10",
+		"@types/node": "22.14.1",
+		"sass": "1.87.0",
+		"svelte": "5.28.1",
+		"svelte-check": "4.1.6",
+		"svelte-preprocess": "6.0.3",
+		"typescript": "5.8.3",
+		"vite": "6.3.2"
+	}
+}
