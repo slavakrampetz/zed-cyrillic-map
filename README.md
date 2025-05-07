@@ -21,7 +21,7 @@ If you have an issues with main domain, you can use service at [Netlify subdomai
 
 My source config:
 
-```json
+```javascript
 {
 	"context": "Editor",
 	"bindings": {
@@ -51,7 +51,7 @@ My source config:
 ```
 
 Result:
-```json
+```javascript
 {
   "context": "Editor",
   "bindings": {
