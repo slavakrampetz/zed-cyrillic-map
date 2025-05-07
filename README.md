@@ -23,30 +23,30 @@ My source config:
 
 ```javascript
 {
-	"context": "Editor",
-	"bindings": {
-		"backspace": "editor::Backspace",
-		"shift-backspace": "editor::Backspace",
-		"ctrl-d": "editor::DuplicateLineDown",
-		// undo/redo
-		"ctrl-z": "editor::Undo",
-		"ctrl-shift-z": "editor::Redo",
-		// ctrl-s
-		"ctrl-s": "workspace::Save",
-		// Rename
-		"shift-f6": "editor::Rename",
-		"f2": "editor::GoToDiagnostic",
-		// Comments
-		"ctrl-shift-/": "editor::ToggleComments",
-		// Move line
-		"ctrl-alt-up": "editor::MoveLineUp",
-		"ctrl-alt-down": "editor::MoveLineDown",
-		// Outline
-		"ctrl-2": "outline::Toggle",
-		// Large/Smaller
-		"ctrl-w": "editor::SelectLargerSyntaxNode",
-		"ctrl-shift-w": "editor::SelectSmallerSyntaxNode",
-	}
+  "context": "Editor",
+  "bindings": {
+    "backspace": "editor::Backspace",
+    "shift-backspace": "editor::Backspace",
+    "ctrl-d": "editor::DuplicateLineDown",
+    // undo/redo
+    "ctrl-z": "editor::Undo",
+    "ctrl-shift-z": "editor::Redo",
+    // ctrl-s
+    "ctrl-s": "workspace::Save",
+    // Rename
+    "shift-f6": "editor::Rename",
+    "f2": "editor::GoToDiagnostic",
+    // Comments
+    "ctrl-shift-/": "editor::ToggleComments",
+    // Move line
+    "ctrl-alt-up": "editor::MoveLineUp",
+    "ctrl-alt-down": "editor::MoveLineDown",
+    // Outline
+    "ctrl-2": "outline::Toggle",
+    // Large/Smaller
+    "ctrl-w": "editor::SelectLargerSyntaxNode",
+    "ctrl-shift-w": "editor::SelectSmallerSyntaxNode",
+  },
 }
 ```
 
@@ -82,10 +82,9 @@ Result:
     "ctrl-cyrillic_tse": "editor::SelectLargerSyntaxNode",
     "ctrl-shift-w": "editor::SelectSmallerSyntaxNode",
     "ctrl-shift-cyrillic_tse": "editor::SelectSmallerSyntaxNode",
-  }
+  },
 }
 ```
-
 
 ### Thanks
 
